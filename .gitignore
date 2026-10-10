@@ -1,0 +1,17 @@
+# Build output
+/embedchunk
+/embedchunk.exe
+/cmd/embedchunk/embedchunk
+/cmd/embedchunk/embedchunk.exe
+*.test
+*.out
+
+# Model files, if someone drops them next to the code
+*.gguf
+*.model
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
